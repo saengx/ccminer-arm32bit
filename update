@@ -4,10 +4,10 @@ cd
 rm -rf ccminer-arm32bit
 git clone https://github.com/saengx/ccminer-arm32bit 
 cd ../etc/mobile-mining/set-miner
-cp -r online.json offline.json /../root/CCMINER-GITHUB/mobile-mining/set-miner
+cp -r online.json offline.json /../root/ccminer-arm32bit/mobile-mining/set-miner
 cd
 cd ../etc/mobile-mining/setip
-cp -r ip.json set-cpu.json /../root/CCMINER-GITHUB/mobile-mining/setip
+cp -r ip.json set-cpu.json /../root/ccminer-arm32bit/mobile-mining/setip
 cd
 cd ../etc
 rm -rf mobile-mining 
