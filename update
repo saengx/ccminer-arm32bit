@@ -1,8 +1,8 @@
 #!/bin/bash 
   
 cd
-rm -rf CCMINER-GITHUB
-git clone https://github.com/saengx/CCMINER-GITHUB 
+rm -rf ccminer-arm32bit
+git clone https://github.com/saengx/ccminer-arm32bit 
 cd ../etc/mobile-mining/set-miner
 cp -r online.json offline.json /../root/CCMINER-GITHUB/mobile-mining/set-miner
 cd
@@ -15,6 +15,6 @@ cd
 cd ../bin
 rm -rf add-file edit-miner run-miner restore backup auto down-grade info set-miner update start
 cd
-cd CCMINER-GITHUB 
+cd ccminer-arm32bit 
 chmod +x setupdate.sh
 sh setupdate.sh
